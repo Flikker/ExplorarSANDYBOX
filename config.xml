@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.riv.Visitar" version="1.0.4" ios-CFBundleVersion="1.0.6" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Visitar</name>
+    <description>
+        An app for viewing AR and VR tours.
+    </description>
+    <author email="contact@revolutioninteractivevideo.com" href="http://revolutioninteractivevideo.com">
+        Revolution Interactive Video
+    </author>
+    <content src="index.html" />
+    <icon src="logo.png" />
+    
+    <plugin name="cordova-plugin-whitelist" version="1" />
+    <access origin="http://revolutioninteractivevideo.com/*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <feature name="http://api.phonegap.com/1.0/network" />
+    <feature name="http://api.phonegap.com/1.0/file" />
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <preference name="AndroidPersistentFileLocation" value="Internal" />
+    <preference name="iosPersistentFileLocation" value="Library" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
+    <preference name="BackupWebStorage" value="none" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="19" />
+    <preference name="android-targetSdkVersion" value="19" />
+    <preference name="deployment-target" value="8.0" />
+     
+   
+    <platform name="ios">
+        <icon src="icons/ios/Icon-Small@2x.png" width="57" height="57" />
+        <icon src="icons/ios/Icon-72.png" width="72" height="72" />
+         <icon src="icons/ios/Icon-76.png" width="76" height="76" />
+        <icon src="icons/ios/Icon@2x.png" width="114" height="114" />
+        <icon src="icons/ios/Icon-60@2x.png" width="120" height="120" />
+        <icon src="icons/ios/Icon-72@2x.png" width="144" height="144" />
+        <icon src="icons/ios/Icon-76@2x.png" width="152" height="152" />
+    </platform>
+    
+     
+
+    <platform name="android">
+        <splash src="landscape-hdpi.png" density="land-hdpi"/>
+    <splash src="landscape-ldpi.png" density="land-ldpi"/>
+    <splash src="landscape-mdpi.png" density="land-mdpi"/>
+    <splash src="landscape-xhdpi.png" density="land-xhdpi"/>
+        <splash src="landscape-xxhdpi.png" density="land-xxhdpi"/>
+
+    <splash src="portrait-hdpi.png" density="port-hdpi"/>
+    <splash src="portrait-ldpi.png" density="port-ldpi"/>
+    <splash src="portrait-mdpi.png" density="port-mdpi"/>
+    <splash src="portrait-xhdpi.png" density="port-xhdpi"/>
+        <splash src="portrait-xxhdpi.png" density="port-xxhdpi"/>
+        
+       
+    </platform>
+   
+    <platform name="ios">
+    <splash src="Default.png" width="320" height="480" />
+<splash src="Default@2x.png"  width="640" height="960" />
+
+<!-- iPhone 5 / iPod Touch (5th Generation) -->
+<splash src="Default-568h@2x.png" width="640" height="1136" />
+
+<!-- iPhone 6 -->
+<splash src="Default-667h@2x.png" width="750" height="1334" />
+<splash src="Default-Portrait-736h@3x.png"  width="1242" height="2208" />
+<splash src="Default-Landscape-736h@3x.png"  width="2208" height="1242" />
+
+<!-- iPad -->
+<splash src="Default-Portrait.png"  width="768" height="1024" />
+<splash src="Default-Landscape.png"  width="1024" height="768" />
+
+<!-- Retina iPad -->
+<splash src="Default-Portrait@2x.png"  width="1536" height="2048" />
+<splash src="Default-Landscape@2x.png"  width="2048" height="1536" />
+    
+    </platform>
+    
+    
+    <splash src="splash.png" />
+     
+     
+    
+    
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="6800" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    
+    <preference name="xwalkVersion" />
+    <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect" />
+    <preference name="xwalkMode" value="embedded" />
+    <preference name="xwalkMultipleApk" value="true" />
+    
+    
+    
+    <plugin name="cordova-plugin-file-transfer" />
+    <plugin name="cordova-plugin-whitelist" />
+    <plugin name="nl.x-services.plugins.insomnia" />
+    <plugin name="cordova-plugin-file" />
+    <plugin name="cordova-plugin-splashscreen" />
+    <plugin name="cordova-plugin-zip" />
+     <plugin name="cordova-plugin-dialogs" />
+    <plugin name="cordova-plugin-bluetoothle" version="2.4.0"/>
+    <plugin name="org.crosswalk.engine" source="pgb" />
+     <plugin name="cordova-plugin-ibeacon"/>
+    <plugin name="cordova-plugin-vibration"/>
+    
+    <plugin name="cordova-plugin-crosswalk-webview"/> 
+    <plugin name="https://github.com/Viras-/cordova-plugin-powermanagement.git"/> 
+     <plugin name="https://github.com/guyromb/Cordova-open-native-settings.git"/>
+</widget>
