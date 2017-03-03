@@ -37,7 +37,10 @@ var app = {
        if (window.location.href == cordova.file.applicationDirectory + "www/index.html") {
            location.reload();
        }  
-    }); var VolumeControl = cordova.plugins.brightness; 
+    }); var VolumeControl = cordova.plugins.brightness;  document.addEventListener("backbutton", function(event) {
+                                  window.close();
+                            }, false); 
+            
        
         
         

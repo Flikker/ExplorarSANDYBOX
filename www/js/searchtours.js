@@ -4,13 +4,13 @@ $(document).on('pagebeforeshow', '#searchpage', function(){
     $('#listsearch').empty();
     var output = $('#listsearch');
     $.ajax({ 
-        url: 'http://revolutioninteractivevideo.com/wp-content/uploads/panos/augmentedrealityheritage/www/searchy.php',
+        url: 'http://revolutioninteractivevideo.com/wp-content/uploads/panos/augmentedrealityheritage/www/searchysandbox.php',
         dataType: 'jsonp',
         jsonp: 'jsoncallback',
         timeout: 20000,
         success: function(data, status){
             $.each(data, function(i,item){
-                var place = '<li> <a href="www/tourdetails.html?id=' +item.id+  '" ><img src="' +item.picture+ '">' +item.name+ '<br>' +item.address+ '</a></li>';
+                var place = '<li> <a href="tourdetails.html?id=' +item.id+  '" ><img src="' +item.picture+ '">' +item.name+ '<br>' +item.address+ '</a></li>';
                 
                 output.append(place);
             });
@@ -36,7 +36,7 @@ $(document).on('pagebeforeshow', '#detailsPage', function(event) {
     $('#tourdetails').empty();
     var output = $('#tourdetails');
     $.ajax({
-        url: 'http://revolutioninteractivevideo.com/wp-content/uploads/panos/augmentedrealityheritage/www/display.php?id='+id,
+        url: 'http://revolutioninteractivevideo.com/wp-content/uploads/panos/augmentedrealityheritage/www/displaysandbox.php?id='+id,
         dataType: 'jsonp',
         jsonp: 'jsoncallback',
         timeout: 10000,
