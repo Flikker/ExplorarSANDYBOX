@@ -48,18 +48,17 @@
      
 
     <platform name="android">
-        <splash src="landscape-hdpi.png" density="land-hdpi"/>
-    <splash src="landscape-ldpi.png" density="land-ldpi"/>
-    <splash src="landscape-mdpi.png" density="land-mdpi"/>
-    <splash src="landscape-xhdpi.png" density="land-xhdpi"/>
-        <splash src="landscape-xxhdpi.png" density="land-xxhdpi"/>
+       <splash qualifier="land-hdpi" src="landscape-hdpi.png"   />
+        <splash qualifier="land-ldpi" src="landscape-ldpi.png" />
+        <splash qualifier="land-mdpi" src="landscape-mdpi.png"  />
+        <splash qualifier="land-xhdpi" src="landscape-xhdpi.png"  />
+        <splash qualifier="land-xxhdpi" src="landscape-xxhdpi.png" />
+        <splash qualifier="port-hdpi" src="portrait-hdpi.png" />
+        <splash qualifier="port-ldpi" src="portrait-ldpi.png"  />
+        <splash qualifier="port-mdpi" src="portrait-mdpi.png" />
+        <splash qualifier="port-xhdpi" src="portrait-xhdpi.png" />
+        <splash qualifier="port-xxhdpi" src="portrait-xxhdpi.png" />
 
-    <splash src="portrait-hdpi.png" density="port-hdpi"/>
-    <splash src="portrait-ldpi.png" density="port-ldpi"/>
-    <splash src="portrait-mdpi.png" density="port-mdpi"/>
-    <splash src="portrait-xhdpi.png" density="port-xhdpi"/>
-        <splash src="portrait-xxhdpi.png" density="port-xxhdpi"/>
-        
        
     </platform>
    
