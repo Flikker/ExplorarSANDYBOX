@@ -7,7 +7,7 @@
     <author email="contact@revolutioninteractivevideo.com" href="http://revolutioninteractivevideo.com">
         Revolution Interactive Video
     </author>
-    <content src="index.html" />
+    <content src="www/index.html" />
     <icon src="logo.png" />
     
     <plugin name="cordova-plugin-whitelist" version="1" />
