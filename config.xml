@@ -85,7 +85,7 @@
     </platform>
     
     
-    <splash src="splash.png" />
+  
      
      <platform name="android">
          <resource-file src="www/targets/CustomData.xml" target="assets/www/CustomData.xml" />
