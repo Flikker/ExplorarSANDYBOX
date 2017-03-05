@@ -8,18 +8,6 @@
         Revolution Interactive Video
     </author>
     <content src="index.html" />
-    
-    <config-file platform="ios" parent="NSBluetoothPeripheralUsageDescription" mode="merge">
-  <array>
-    <string>App would like to use bluetooth</string>
-  </array>
-</config-file>
-    
-    <config-file platform="ios" parent="NSCameraUsageDescription" mode="merge">
-  <array>
-    <string>App would like to use camera</string>
-  </array>
-</config-file>
    
     
     <plugin name="cordova-plugin-whitelist" version="1" />
@@ -156,4 +144,6 @@
     <plugin name="https://github.com/Viras-/cordova-plugin-powermanagement.git"/> 
      <plugin name="https://github.com/guyromb/Cordova-open-native-settings.git"/>
         <plugin name="cordova-camera-preview" />
+    <plugin name="cordova-plugin-ios-camera-permissions" />
+    <plugin name="cordova-plugin-ios-ble-permissions" />
 </widget>
