@@ -8,7 +8,19 @@
         Revolution Interactive Video
     </author>
     <content src="index.html" />
-    <icon src="logo.png" />
+    
+    <config-file platform="ios" parent="NSBluetoothPeripheralUsageDescription" mode="add">
+  <array>
+    <string>App would like to use bluetooth</string>
+  </array>
+</config-file>
+    
+    <config-file platform="ios" parent="NSCameraUsageDescription" mode="add">
+  <array>
+    <string>App would like to use camera</string>
+  </array>
+</config-file>
+   
     
     <plugin name="cordova-plugin-whitelist" version="1" />
     <access origin="http://revolutioninteractivevideo.com/*" />
