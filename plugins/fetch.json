@@ -47,14 +47,6 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-crosswalk-webview": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-crosswalk-webview"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-plugin-dialogs": {
         "source": {
             "type": "registry",
@@ -95,7 +87,66 @@
         "is_top_level": true,
         "variables": {}
     },
-    "com.phonegap.plugins.nativesettingsopener": {
+    "at.gofg.sportscomputer.powermanagement": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Viras-/cordova-plugin-powermanagement.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-ios-camera-permissions": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-ios-camera-permissions"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-ios-ble-permissions": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-ios-ble-permissions"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.dooble.audiotoggle": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/alongubkin/audiotoggle",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-media": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-media@2.4.1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-compat": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-compat"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "fm.radiant.cordova.utils.volume": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/dillix/fm.radiant.cordova.utils.volume",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-open-native-settings": {
         "source": {
             "type": "git",
             "url": "https://github.com/guyromb/Cordova-open-native-settings.git",
@@ -104,11 +155,24 @@
         "is_top_level": true,
         "variables": {}
     },
-    "at.gofg.sportscomputer.powermanagement": {
+    "cordova-plugin-crosswalk-webview": {
         "source": {
-            "type": "git",
-            "url": "https://github.com/Viras-/cordova-plugin-powermanagement.git",
-            "subdir": "."
+            "type": "registry",
+            "id": "cordova-plugin-crosswalk-webview@2.3.0"
+        },
+        "is_top_level": true,
+        "variables": {
+            "XWALK_VERSION": "23+",
+            "XWALK_LITEVERSION": "xwalk_core_library_canary:17+",
+            "XWALK_COMMANDLINE": "--disable-pull-to-refresh-effect",
+            "XWALK_MODE": "embedded",
+            "XWALK_MULTIPLEAPK": "true"
+        }
+    },
+    "com.phonegap.plugins.nativesettingsopener": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-nativesettings"
         },
         "is_top_level": true,
         "variables": {}

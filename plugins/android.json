@@ -1,0 +1,78 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "at.gofg.sportscomputer.powermanagement": {
+            "PACKAGE_NAME": "com.riv.Visitar"
+        },
+        "com.dooble.audiotoggle": {
+            "PACKAGE_NAME": "com.riv.Visitar"
+        },
+        "com.unarin.cordova.beacon": {
+            "PACKAGE_NAME": "com.riv.Visitar"
+        },
+        "cordova-open-native-settings": {
+            "PACKAGE_NAME": "com.riv.Visitar"
+        },
+        "cordova-plugin-bluetoothle": {
+            "PACKAGE_NAME": "com.riv.Visitar"
+        },
+        "cordova-plugin-brightness": {
+            "PACKAGE_NAME": "com.riv.Visitar"
+        },
+        "cordova-plugin-crosswalk-webview": {
+            "XWALK_VERSION": "23+",
+            "XWALK_LITEVERSION": "xwalk_core_library_canary:17+",
+            "XWALK_COMMANDLINE": "--disable-pull-to-refresh-effect",
+            "XWALK_MODE": "embedded",
+            "XWALK_MULTIPLEAPK": "true",
+            "PACKAGE_NAME": "com.riv.Visitar"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.riv.Visitar"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.riv.Visitar"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.riv.Visitar"
+        },
+        "cordova-plugin-ios-ble-permissions": {
+            "PACKAGE_NAME": "com.riv.Visitar"
+        },
+        "cordova-plugin-ios-camera-permissions": {
+            "PACKAGE_NAME": "com.riv.Visitar"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.riv.Visitar"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.riv.Visitar"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.riv.Visitar"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.riv.Visitar"
+        },
+        "cordova-plugin-zip": {
+            "PACKAGE_NAME": "com.riv.Visitar"
+        },
+        "fm.radiant.cordova.utils.volume": {
+            "PACKAGE_NAME": "com.riv.Visitar"
+        },
+        "nl.x-services.plugins.insomnia": {
+            "PACKAGE_NAME": "com.riv.Visitar"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.riv.Visitar"
+        }
+    }
+}

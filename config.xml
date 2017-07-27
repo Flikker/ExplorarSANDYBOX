@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.riv.Visitar" version="1.0.5" ios-CFBundleVersion="1.0.9" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Explorar</name>
+    <name>ExplorarSANDBOX</name>
     <description>
         An app for viewing AR and VR tours.
     </description>
@@ -142,8 +142,13 @@
     
     <plugin name="cordova-plugin-crosswalk-webview"/> 
     <plugin name="https://github.com/Viras-/cordova-plugin-powermanagement.git"/> 
-     <plugin name="https://github.com/guyromb/Cordova-open-native-settings.git"/>
-        <plugin name="cordova-camera-preview" />
+    
+        
     <plugin name="cordova-plugin-ios-camera-permissions" />
     <plugin name="cordova-plugin-ios-ble-permissions" />
+    <plugin name="https://github.com/alongubkin/audiotoggle" />
+    <plugin name="cordova-plugin-media" />
+    <plugin name="https://github.com/dillix/fm.radiant.cordova.utils.volume" />
+    
+    
 </widget>

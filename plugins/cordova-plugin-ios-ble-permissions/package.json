@@ -1,0 +1,37 @@
+{
+  "name": "cordova-plugin-ios-ble-permissions",
+  "version": "1.0.1",
+  "author": "Tony Curwen <tony@marinedataservices.com>",
+  "description": "Cordova / PhoneGap Plugin Permission Settings for NSBluetoothPeripheralUsageDescription in iOS 10 by adding a declaration to the Info.plist file",
+  "cordova": {
+    "id": "cordova-plugin-ios-ble-permissions",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cordobo/cordova-plugin-ios-ble-permissions.git"
+  },
+  "keywords": [
+    "cordova",
+    "ios",
+    "app",
+    "security",
+    "permissions",
+    "nsbluetoothperipheralusagedescription",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cordobo/cordova-plugin-ios-ble-permissions/issues"
+  },
+  "homepage": "https://github.com/cordobo/cordova-plugin-ios-ble-permissions#readme"
+}
